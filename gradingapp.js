@@ -6,11 +6,11 @@ function giveGrade() {
   alert("hey!");
 
 //Input your code below:
-  if (grade<100 && grade >90)
+  if (grade<100 && grade >90) {
         alert("A");
 
   }
-  else if (grade<89 && grade >80) }
+  else if (grade<89 && grade >80) {
       alert("B");
     
   }
@@ -18,6 +18,11 @@ function giveGrade() {
       alert("C");
 
   }
-  else if (grade<69 && grade >60) }
+  else if (grade<69 && grade >60) {
       alert("D");
+  
   }
+  else if (grade<59 && grade >50) {
+      alert("F")
+  }
+      }
